@@ -1,0 +1,343 @@
+track Adipose_Subcutaneous
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Adipose_Subcutaneous.bb
+shortLabel Adipose_Subcutaneous
+longLabel Adipose_Subcutaneous
+type bigBed
+visibility full
+
+track Adipose_Visceral_Omentum
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Adipose_Visceral_Omentum.bb
+shortLabel Adipose_Visceral_Omentum
+longLabel Adipose_Visceral_Omentum
+type bigBed
+visibility full
+
+track Adrenal_Gland
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Adrenal_Gland.bb
+shortLabel Adrenal_Gland
+longLabel Adrenal_Gland
+type bigBed
+visibility full
+
+track Artery_Aorta
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Artery_Aorta.bb
+shortLabel Artery_Aorta
+longLabel Artery_Aorta
+type bigBed
+visibility full
+
+track Artery_Coronary
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Artery_Coronary.bb
+shortLabel Artery_Coronary
+longLabel Artery_Coronary
+type bigBed
+visibility full
+
+track Artery_Tibial
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Artery_Tibial.bb
+shortLabel Artery_Tibial
+longLabel Artery_Tibial
+type bigBed
+visibility full
+
+track Brain_Amygdala
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Amygdala.bb
+shortLabel Brain_Amygdala
+longLabel Brain_Amygdala
+type bigBed
+visibility full
+
+track Brain_Anterior_cingulate
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Anterior_cingulate.bb
+shortLabel Brain_Anterior_cingulate
+longLabel Brain_Anterior_cingulate
+type bigBed
+visibility full
+
+track Brain_Caudate
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Caudate.bb
+shortLabel Brain_Caudate
+longLabel Brain_Caudate
+type bigBed
+visibility full
+
+track Brain_Cerebellar
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Cerebellar.bb
+shortLabel Brain_Cerebellar
+longLabel Brain_Cerebellar
+type bigBed
+visibility full
+
+track Brain_Cerebellum
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Cerebellum.bb
+shortLabel Brain_Cerebellum
+longLabel Brain_Cerebellum
+type bigBed
+visibility full
+
+track Brain_Cortex
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Cortex.bb
+shortLabel Brain_Cortex
+longLabel Brain_Cortex
+type bigBed
+visibility full
+
+track Brain_Frontal_Cortex
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Frontal_Cortex.bb
+shortLabel Brain_Frontal_Cortex
+longLabel Brain_Frontal_Cortex
+type bigBed
+visibility full
+
+track Brain_Hippocampus
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Hippocampus.bb
+shortLabel Brain_Hippocampus
+longLabel Brain_Hippocampus
+type bigBed
+visibility full
+
+track Brain_Hypothalamus
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Hypothalamus.bb
+shortLabel Brain_Hypothalamus
+longLabel Brain_Hypothalamus
+type bigBed
+visibility full
+
+track Brain_Nucleus
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Nucleus.bb
+shortLabel Brain_Nucleus
+longLabel Brain_Nucleus
+type bigBed
+visibility full
+
+track Brain_Putamen
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Putamen.bb
+shortLabel Brain_Putamen
+longLabel Brain_Putamen
+type bigBed
+visibility full
+
+track Brain_Spinal_cord
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Spinal_cord.bb
+shortLabel Brain_Spinal_cord
+longLabel Brain_Spinal_cord
+type bigBed
+visibility full
+
+track Brain_Substantia_nigra
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Brain_Substantia_nigra.bb
+shortLabel Brain_Substantia_nigra
+longLabel Brain_Substantia_nigra
+type bigBed
+visibility full
+
+track Breast_Mammary_Tissue
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Breast_Mammary_Tissue.bb
+shortLabel Breast_Mammary_Tissue
+longLabel Breast_Mammary_Tissue
+type bigBed
+visibility full
+
+track Cells_Cultured
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Cells_Cultured.bb
+shortLabel Cells_Cultured
+longLabel Cells_Cultured
+type bigBed
+visibility full
+
+track Cells_EBV
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Cells_EBV.bb
+shortLabel Cells_EBV
+longLabel Cells_EBV
+type bigBed
+visibility full
+
+track Colon_Sigmoid
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Colon_Sigmoid.bb
+shortLabel Colon_Sigmoid
+longLabel Colon_Sigmoid
+type bigBed
+visibility full
+
+track Colon_Transverse
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Colon_Transverse.bb
+shortLabel Colon_Transverse
+longLabel Colon_Transverse
+type bigBed
+visibility full
+
+track Esophagus_Gastro
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Esophagus_Gastro.bb
+shortLabel Esophagus_Gastro
+longLabel Esophagus_Gastro
+type bigBed
+visibility full
+
+track Esophagus_Mucosa
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Esophagus_Mucosa.bb
+shortLabel Esophagus_Mucosa
+longLabel Esophagus_Mucosa
+type bigBed
+visibility full
+
+track Esophagus_Muscularis
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Esophagus_Muscularis.bb
+shortLabel Esophagus_Muscularis
+longLabel Esophagus_Muscularis
+type bigBed
+visibility full
+
+track Heart_Atrial
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Heart_Atrial.bb
+shortLabel Heart_Atrial
+longLabel Heart_Atrial
+type bigBed
+visibility full
+
+track Heart_L_Vent
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Heart_L_Vent.bb
+shortLabel Heart_L_Vent
+longLabel Heart_L_Vent
+type bigBed
+visibility full
+
+track Kidney_Cortex
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Kidney_Cortex.bb
+shortLabel Kidney_Cortex
+longLabel Kidney_Cortex
+type bigBed
+visibility full
+
+track Liver
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Liver.bb
+shortLabel Liver
+longLabel Liver
+type bigBed
+visibility full
+
+track Lung
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Lung.bb
+shortLabel Lung
+longLabel Lung
+type bigBed
+visibility full
+
+track Minor_Salivary
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Minor_Salivary.bb
+shortLabel Minor_Salivary
+longLabel Minor_Salivary
+type bigBed
+visibility full
+
+track Muscle_Skeletal
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Muscle_Skeletal.bb
+shortLabel Muscle_Skeletal
+longLabel Muscle_Skeletal
+type bigBed
+visibility full
+
+track Nerve_Tibial
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Nerve_Tibial.bb
+shortLabel Nerve_Tibial
+longLabel Nerve_Tibial
+type bigBed
+visibility full
+
+track Ovary
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Ovary.bb
+shortLabel Ovary
+longLabel Ovary
+type bigBed
+visibility full
+
+track Pancreas
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Pancreas.bb
+shortLabel Pancreas
+longLabel Pancreas
+type bigBed
+visibility full
+
+track Pituitary
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Pituitary.bb
+shortLabel Pituitary
+longLabel Pituitary
+type bigBed
+visibility full
+
+track Prostate
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Prostate.bb
+shortLabel Prostate
+longLabel Prostate
+type bigBed
+visibility full
+
+track Skin_Not_Sun_Epsd
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Skin_Not_Sun_Epsd.bb
+shortLabel Skin_Not_Sun_Epsd
+longLabel Skin_Not_Sun_Epsd
+type bigBed
+visibility full
+
+track Skin_Sun_Epsd
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Skin_Sun_Epsd.bb
+shortLabel Skin_Sun_Epsd
+longLabel Skin_Sun_Epsd
+type bigBed
+visibility full
+
+track Small_Intestine
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Small_Intestine.bb
+shortLabel Small_Intestine
+longLabel Small_Intestine
+type bigBed
+visibility full
+
+track Spleen
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Spleen.bb
+shortLabel Spleen
+longLabel Spleen
+type bigBed
+visibility full
+
+track Stomach
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Stomach.bb
+shortLabel Stomach
+longLabel Stomach
+type bigBed
+visibility full
+
+track Testis
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Testis.bb
+shortLabel Testis
+longLabel Testis
+type bigBed
+visibility full
+
+track Thyroid
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Thyroid.bb
+shortLabel Thyroid
+longLabel Thyroid
+type bigBed
+visibility full
+
+track Uterus
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Uterus.bb
+shortLabel Uterus
+longLabel Uterus
+type bigBed
+visibility full
+
+track Vagina
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Vagina.bb
+shortLabel Vagina
+longLabel Vagina
+type bigBed
+visibility full
+
+track Whole_Blood
+bigDataUrl https://raw.githubusercontent.com/tjiagoM/gtex-transcriptome-modelling/master/track_hub/hg38/Whole_Blood.bb
+shortLabel Whole_Blood
+longLabel Whole_Blood
+type bigBed
+visibility full
+

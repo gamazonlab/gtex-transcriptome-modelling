@@ -1,20 +1,19 @@
-[![DOI](https://zenodo.org/badge/265633374.svg)](https://zenodo.org/badge/latestdoi/265633374)
+[![GitHub license](https://img.shields.io/github/license/tjiagoM/gtex-transcriptome-modelling)](https://github.com/tjiagoM/gtex-transcriptome-modelling/blob/master/LICENSE)
+[![DOI](https://img.shields.io/badge/DOI-10.1038/s41540--021--00186--6-blue.svg)](https://doi.org/10.1038/s41540-021-00186-6)
+
+# Multilayer modelling of the human transcriptome and biological mechanisms of complex diseases and traits
+
+*Tiago Azevedo, Giovanna Maria Dimitri, Pietro Lió, Eric R. Gamazon*
+
+![image](https://user-images.githubusercontent.com/7031523/120554714-fc28d080-c3f1-11eb-90a6-df1962370bee.png)
+
+This repository contains all the code necessary to run and further extend the experiments presented in the following paper accepted at _npj Systems Biology and Applications_: [https://doi.org/10.1038/s41540-021-00186-6](https://doi.org/10.1038/s41540-021-00186-6).
 
 
-# Multilayer modelling and analysis of the human transcriptome
-
-*Tiago Azevedo, Giovanna Maria Dimitri, Pietro Lio, Eric R. Gamazon*
-
-This repository contains all the code necessary to run and further extend the experiments presented in the following bioRxiv preprint: [https://doi.org/10.1101/2020.05.21.109082](https://doi.org/10.1101/2020.05.21.109082)
 
 ## Abstract
 
-Here, we performed a comprehensive intra-tissue and inter-tissue network analysis of the human transcriptome.
-We generated an atlas of communities in co-expression networks in 49 tissues (GTEx v8), evaluated their tissue specificity, and investigated their methodological implications.
-UMAP embeddings of gene expression from the communities (representing nearly 18% of all genes) robustly identified biologically-meaningful clusters.
-Methodologically, integration of the communities into a transcriptome-wide association study of C-reactive protein (CRP) in 361,194 individuals in the UK Biobank identified genetically-determined expression changes associated with CRP and led to considerably improved performance.
-Furthermore, a deep learning framework applied to the communities in nearly 11,000 tumours profiled by The Cancer Genome Atlas across 33 different cancer types learned biologically-meaningful latent spaces, representing metastasis (<img src="https://render.githubusercontent.com/render/math?math=p < 2.2 \times 10^{-16}">) and stemness (<img src="https://render.githubusercontent.com/render/math?math=p < 2.2 \times 10^{-16}">).
-Our study provides a rich genomic resource to catalyse research into inter-tissue regulatory mechanisms and their downstream phenotypic consequences.
+Here, we performed a comprehensive intra-tissue and inter-tissue multilayer network analysis of the human transcriptome. We generated an atlas of communities in gene co-expression networks in 49 tissues (GTEx v8), evaluated their tissue specificity, and investigated their methodological implications. UMAP embeddings of gene expression from the communities (representing nearly 18% of all genes) robustly identified biologically-meaningful clusters. Notably, new gene expression data can be embedded into our algorithmically derived models to accelerate discoveries in high-dimensional molecular datasets and downstream diagnostic or prognostic applications. We demonstrate the generalisability of our approach through systematic testing in external genomic and transcriptomic datasets. Methodologically, prioritisation of the communities in a transcriptome-wide association study of the biomarker C-reactive protein (CRP) in 361,194 individuals in the UK Biobank identified genetically-determined expression changes associated with CRP and led to considerably improved performance. Furthermore, a deep learning framework applied to the communities in nearly 11,000 tumors profiled by The Cancer Genome Atlas across 33 different cancer types learned biologically-meaningful latent spaces, representing metastasis (<img src="https://render.githubusercontent.com/render/math?math=p < 2.2 \times 10^{-16}">) and stemness (<img src="https://render.githubusercontent.com/render/math?math=p < 2.2 \times 10^{-16}">). Our study provides a rich genomic resource to catalyse research into inter-tissue regulatory mechanisms, and their downstream consequences on human disease.
 
 
 ## Repository Structure
@@ -31,6 +30,8 @@ Each folder used in this repository is explained as follows:
 
 * `svm_results`: Files with the metrics resulting from the SVM predictions.
 
+* `track_hub`: Files in the format required for [Track Hub](http://genome.ucsc.edu/cgi-bin/hgHubConnect)
+
 
 In the repository there are also some jupyter notebooks which we hope can help researchers in using our results in their own experiments, as well as improve the reproducibility of this paper:
 
@@ -40,9 +41,11 @@ In the repository there are also some jupyter notebooks which we hope can help r
 
 * `11_multiplex_enrichment.ipynb`: Instructions on how to check the group of genes identified in each multiplex network.
 
-* `12_tcga.ipynb`: the code used in the paper to analyse the TCGA dataset within the GTEx pipeline of the paper, as well as a targeted R code (`12_01_correct_confounds_tcga.R`) used to correct the data.
+* `12_tcga.ipynb`: The code used in the paper to analyse the TCGA dataset within the GTEx pipeline of the paper, as well as a targeted R code (`12_01_correct_confounds_tcga.R`) used to correct the data.
 
-* `13_plots_for_paper.ipynb`: the code used to generate the plots from the paper.
+* `13_plots_for_paper.ipynb`: The code used to generate the plots from the paper.
+
+* `14_track_hub.ipynb`: Code and explanations on how we generated the needed files for [Track Hub](http://genome.ucsc.edu/cgi-bin/hgHubConnect)
 
 
 ## Installing Dependencies
@@ -134,6 +137,27 @@ The previous command will run the `02_01_correct_confounds.R` script and log the
 ## Other scripts
 
 The scripts for the multilayer modeling approach to TWAS/PrediXcan (CRP in UKB) and Variational Autoencoder model (TCGA) are in this [external repository](https://github.com/gamazonlab/MultilayerModelingTranscriptome).
+
+
+## Citing this work
+
+To cite our work, we provide the following BibTeX:
+
+```bibtex
+@article{Azevedo2021,
+  doi = {10.1038/s41540-021-00186-6},
+  url = {https://doi.org/10.1038/s41540-021-00186-6},
+  year = {2021},
+  month = may,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {7},
+  number = {1},
+  pages={1--13},
+  author = {Tiago Azevedo and Giovanna Maria Dimitri and Pietro Li{\'{o}} and Eric R. Gamazon},
+  title = {Multilayer modelling of the human transcriptome and biological mechanisms of complex diseases and traits},
+  journal = {npj Systems Biology and Applications}
+}
+```
 
 
 ## Questions?
